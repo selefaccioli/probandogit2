@@ -1,4 +1,4 @@
-PROBANDO HACER UN COMMMIT CON ESTA NUEVA LINEA
+PROBANDO LA NUEVA RAMA
 
 
 
@@ -92,6 +92,13 @@ IF .NOT. (TYPE("m.EsSincroni") = "L" .AND. m.EsSincroni) .AND. .NOT. (TYPE("m.gl
 					ENDCASE  
 					m.lcVarRWS = m.gcRWSVar_DEPOSITO
 
+
+
+
+***********PROBANDO 2
+
+
+
 				CASE UPPER(m.tcTabla) == "RELACION" .AND. JUSTSTEM(DBF()) = "RELACION"
 					m.lcPkey = STR(id_rws, 12)		
 					DO CASE 
@@ -177,7 +184,8 @@ IF .NOT. (TYPE("m.EsSincroni") = "L" .AND. m.EsSincroni) .AND. .NOT. (TYPE("m.gl
 								m.lcPkey = STR(m.tuClave,12)
 							endif
 							m.lcURL = m.gcRWSVar_URLD + "dtoprod0"
-					ENDCASE  
+
+ENDCASE  
 					m.lcVarRWS = m.gcRWSVar_DTOPROD
 							
 					* Envío asincronico por errores de reintento
