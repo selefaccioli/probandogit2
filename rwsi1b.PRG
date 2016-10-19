@@ -1,4 +1,4 @@
-PROBANDO HACER UN COMMMIT CON ESTA NUEVA LINEA
+PROBANDO LA NUEVA RAMA
 
 
 
@@ -177,6 +177,12 @@ IF .NOT. (TYPE("m.EsSincroni") = "L" .AND. m.EsSincroni) .AND. .NOT. (TYPE("m.gl
 								m.lcPkey = STR(m.tuClave,12)
 							endif
 							m.lcURL = m.gcRWSVar_URLD + "dtoprod0"
+
+*********PROBANDO
+
+
+
+
 					ENDCASE  
 					m.lcVarRWS = m.gcRWSVar_DTOPROD
 							
